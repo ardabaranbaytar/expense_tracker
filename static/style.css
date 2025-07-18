@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+}
+
+.card {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    border-radius: 16px;
+}
+
+.card-header {
+    background: #009688;
+    color: #fff;
+    font-weight: bold;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.btn-success {
+    background: #009688;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #00796b;
+}
+
+.btn-danger {
+    background: #e53935;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #b71c1c;
+}
+
+.list-group-item {
+    font-size: 1.05rem;
+}
+
+input.form-control {
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
